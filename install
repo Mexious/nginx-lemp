@@ -24,4 +24,8 @@ sudo cp -r php.ini /etc/php/7.0/fpm/
 sudo service php7.0-fpm reload
 
 #creat phpinfo
-cp -r info.php /var/www/html/
+sudo cp -r info.php /var/www/html/
+
+#Install mysql
+sudo apt-get –y install mysql-server mysql-client
+
