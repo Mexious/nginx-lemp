@@ -1,3 +1,11 @@
+#!bin/bash
+#instalasi Nginx Web Server, serta PHP 7.0, MySQL, & phpMyAdmin
+#Jika Ada kesalahan, silahkan langsung hubungi saya@rifky.tech 
+#SysAdmin : Muhammad Rifky Abimayu
+#Visit : https://www.mexious.net
+
+
+
 #install nginx web server
 sudo apt-get -y install nginx
 
