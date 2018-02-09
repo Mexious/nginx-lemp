@@ -1,8 +1,8 @@
 #install nginx web server
-sudo -y install nginxinx
+#sudo -y install nginxinx
 
 #install php7.0
-sudo apt-get -y install php php7.0-fpm
+#sudo apt-get -y install php php7.0-fpm
 
 #nginx.conf
 rm -rf /etc/nginx/nginx.conf
