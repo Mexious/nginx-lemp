@@ -18,3 +18,10 @@ sudo service nginx reload
 #php.ini konfiguration
 sudo rm -rf /etc/php/7.0/fpm/php.ini
 sudo cp -r php.ini /etc/php/7.0/fpm/
+
+
+#reload php-fpm
+sudo service php7.0-fpm reload
+
+#creat phpinfo
+cp -r info.php /var/www/html/
