@@ -1,5 +1,5 @@
 #install nginx web server
-sudo -y install nginx
+sudo apt-get -y install nginx
 
 #install php7.0
 sudo apt-get -y install php php7.0-fpm
@@ -27,7 +27,7 @@ sudo service php7.0-fpm reload
 sudo cp -r info.php /var/www/html/
 
 #Install mysql
-sudo apt-get –y install mysql-server mysql-client
+sudo apt-get -y install mysql-server mysql-client
 
 echo " Pada Install phpmyadmin, berikut ada 2 pilihan opsi :
               - pada opsi (Web Server to reconfigure automatically) : <-- Kosongkan
