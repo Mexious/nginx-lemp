@@ -4,7 +4,6 @@
 #Ada Yang Error ? Kirim Laporan Ke Email : saya@rifky.tech #
 ############################################################
 
-
 server {
  listen 80 default_server;
  listen [::]:80 default_server;
