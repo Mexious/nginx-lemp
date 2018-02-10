@@ -1,8 +1,9 @@
-############################################################
-#Untuk File  /etc/nginx/sites-available/default            #
-#SysAdmin Muhammad Rifky Abimayu                           #
-#Ada Yang Error ? Kirim Laporan Ke Email : saya@rifky.tech #
-############################################################
+##################################################################
+#Untuk File  /etc/nginx/sites-available/default                  #
+#Mohon Untuk Tidak Mengubah File Ini Kecuali jika Anda Mengerti  #
+#SysAdmin Muhammad Rifky Abimayu                                 #
+#Ada Yang Error ? Kirim Laporan Ke Email : saya@rifky.tech       #
+##################################################################
 
 server {
  listen 80 default_server;
