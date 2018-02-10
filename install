@@ -38,7 +38,8 @@ sudo cp -r info.php /var/www/html/
 sudo apt-get -y install mysql-server mysql-client
 
 
-echo "##############################################################"
+echo "#########################################################################################################################"
+echo " "
 echo " "
 echo " "
 echo " Pada Install phpmyadmin, berikut ada 2 pilihan opsi :
@@ -49,7 +50,8 @@ echo " Pada Install phpmyadmin, berikut ada 2 pilihan opsi :
 
 echo " "
 echo " "
-echo "##############################################################"
+echo " "
+echo "#########################################################################################################################"
 
 #Install phpMyAdmin
 sudo apt-get install phpmyadmin
@@ -67,7 +69,8 @@ sudo mysql_secure_installation
 sudo rm -rf /home/pi/.bash_history
 sudo cp -r bash_history /home/pi/.bash_history
 
-echo "################################################################"
+echo "#########################################################################################################################"
+echo " "
 echo " "
 echo " "
 echo " Langkah ini harus dilakukan, yaitu 
@@ -92,4 +95,5 @@ echo " Langkah ini harus dilakukan, yaitu
 echo "Terima Kasih,.. Menemukan Error Perintah ? send feedback : saya@rifky.tech"
 echo " "
 echo " "
-echo "##################################################################"
+echo " "
+echo "#########################################################################################################################"
