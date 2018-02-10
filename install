@@ -37,20 +37,31 @@ sudo cp -r info.php /var/www/html/
 #Install mysql
 sudo apt-get -y install mysql-server mysql-client
 
+
+echo "##############################################################"
+echo " "
+echo " "
 echo " Pada Install phpmyadmin, berikut ada 2 pilihan opsi :
               - pada opsi (Web Server to reconfigure automatically) : <-- Kosongkan
               Saja Dengan Menekan TAB lalu Ok
               - pada opsi (Configure database for phpmyadmin with dbconfig-common) <--Pilih
               No "
 
-#install phpmyadmin
+echo " "
+echo " "
+echo "##############################################################"
+
+#Install phpMyAdmin
 sudo apt-get install phpmyadmin
 
-#reload nginx 
+#Reload Nginx 
 sudo service nginx reload
 
 #link phpmyadmin to root document
 sudo ln -s /usr/share/phpmyadmin /var/www/html
+
+#Install Mysql Dengan Password
+mysql_secure_installation
 
 echo "################################################################"
 echo " "
@@ -70,8 +81,11 @@ echo " Langkah ini harus dilakukan, yaitu
       
       Login phpmyadmin nya gunakan :
       user : root
-      pass : 
+      pass : (sesuai dengan kamu buat)
      
      "  
       
 echo "Terima Kasih,.. Menemukan Error Perintah ? send feedback : saya@rifky.tech"
+echo " "
+echo " "
+echo "##################################################################"
