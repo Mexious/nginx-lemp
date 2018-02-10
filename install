@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #instalasi Nginx Web Server, serta PHP 7.0, MySQL, & phpMyAdmin
 #Jika Ada kesalahan, silahkan langsung hubungi saya@rifky.tech 
 #SysAdmin : Muhammad Rifky Abimayu
