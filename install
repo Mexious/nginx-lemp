@@ -63,6 +63,10 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html
 #Install Mysql Dengan Password
 mysql_secure_installation
 
+#Refresh History
+sudo rm -rf /home/pi/.bash_history
+sudo cp -r bash_history /home/pi/.bash_history
+
 echo "################################################################"
 echo " "
 echo " "
