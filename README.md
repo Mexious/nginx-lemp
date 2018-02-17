@@ -6,7 +6,7 @@ OS Server Tested : Saya Menggunakan Debian 9 Stretch, Mungkin bisa digunakan unt
 dan versi tingkat atas nya,
 
 ### Instalasi Nginx, PHP7.0, phpMyAdmin
-1. instalasi cukup dengan <code>git clone https://github.com/rifkytech/nginx-lemp.git</code>
+1. instalasi cukup dengan <code>git clone https://github.com/mexious/nginx-lemp.git</code>
 2. Kemudian <code>cd nginx-lemp</code>
 3. setelah itu <code>chmod 777 install</code>
 4. nah selesai, untuk install nginx nya, cukup dengan perintah <code>./install</code>
